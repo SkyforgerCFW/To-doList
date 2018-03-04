@@ -1,0 +1,89 @@
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#004d99;
+	background: #cce6ff;
+	border: 2px solid #004d99;
+	border-radius: 20px;
+}
+form {
+	display: flex;
+	width: 50%; 
+	height: 40px;
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: #cce6ff;
+	border: 1px solid #004d99;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	display: flex;
+	flex-grow: 5;
+	height: 15px; 
+	padding: 10px;
+	margin-right: 10px;
+	border: 2px solid #004d99;
+	border-radius: 5px;
+}
+.add_btn {
+	float: right;
+	height: 39px;
+	background: #cce6ff;
+	color: 	#004d99;
+	border: 2px solid #004d99;
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: #004d99;
+}
+
+th, td{
+	text-align: center;
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete, .edit{
+	text-align: center;
+}
+.delete a, .edit a{
+	color: white;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.delete a{
+	background: #a52a2a;
+}
+
+.edit a{
+	background: #5ea529;
+}
